@@ -1,3 +1,4 @@
 .vscode/
 .deployment
 node_modules/
+family-command-center.db3

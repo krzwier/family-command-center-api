@@ -1,5 +1,5 @@
 const { personController, singlePersonController } = require("./persons");
-const { allPersons } = require("../data/test/seeds/person");
+const { allPersons } = require("../data/seeds/test/person");
 const { createResponse, createRequest } = require("node-mocks-http");
 const { db } = require("../data/db-config");
 

@@ -6,10 +6,10 @@ const config = {
       },
       useNullAsDefault: true,
       migrations: {
-         directory: "./data/production/migrations"
+         directory: "./data/migrations"
       },
       seeds: {
-         directory: "./data/production/seeds"
+         directory: "./data/seeds/production"
       }
    },
    test: {
@@ -19,10 +19,10 @@ const config = {
       },
       useNullAsDefault: true,
       migrations: {
-         directory: "./data/test/migrations"
+         directory: "./data/migrations"
       },
       seeds: {
-         directory: "./data/test/seeds"
+         directory: "./data/seeds/test"
       }
    }
 };
